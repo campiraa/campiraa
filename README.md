@@ -1,4 +1,46 @@
-body {
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Quest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://example.com/path/to/your/logo.png" alt="Green Quest Logo" id="logo">
+        <h1>Green Quest</h1>
+        <p>¡Descubre, aprende y actúa para salvar nuestro planeta!</p>
+    </header>
+
+    <div class="content">
+        <div class="section" id="challenges-section">
+            <h2>Retos Diarios</h2>
+            <p>Completa estos retos diarios para reducir tu impacto ambiental:</p>
+            <ul id="daily-challenges" class="challenges"></ul>
+        </div>
+
+        <div class="section" id="videos-section">
+            <h2>Videos Educativos</h2>
+            <p>Aprende más sobre el cambio climático y cómo puedes ayudar:</p>
+            <div id="video-container"></div>
+        </div>
+
+        <div class="section" id="recommendations-section">
+            <h2>Recomendaciones</h2>
+            <p>Consejos para vivir de manera más sostenible:</p>
+            <ul id="recommendations" class="challenges"></ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Green Quest | Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+    body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
